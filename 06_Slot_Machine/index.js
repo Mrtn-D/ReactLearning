@@ -4,9 +4,17 @@ class App extends React.Component {
         return (
 
             <div>
-                <Slot />
-                <Slot />
-                <Slot />
+                <h1>Slot Machines !</h1>
+                <Slot
+                    s1="🍉"
+                    s2="🍊"
+                    s3="🍉"
+                />
+                <Slot
+                    s1="🍉"
+                    s2="🍉"
+                    s3="🍉"
+                />
             </div>
         )
 
